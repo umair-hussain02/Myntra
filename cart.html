@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Bag</title>
+    <link rel="icon" href="/images/myntra_logo.webp">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="collection-page.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img class="myntra-logo" src="/images/myntra_logo.webp" alt="logo"></a>
+        </div>
+        <nav>
+            <a href="" class="active">bag</a>---------<a href="">address</a>---------<a href="">Payment</a>
+        </nav>
+        <div class="action-bar">
+            <div class="action-container">
+                <img src="/images/sprite-secure.png" alt="">
+                <p>100% SECURE</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="cart-view">
+            <div class="product-view-list">
+                <div class="services service-time">
+                    <p>Check Delivery Time & Services</p>
+                    <button>ENTER PIN CODE</button>
+                </div>
+                <div class="services available-offers">
+                    <p><span class="material-symbols-outlined">humidity_percentage</span>Available Offers</p>
+                    <ul><li>7.5% Instant Discount on every spends with Myntra Kotak Credit Card. TCA...                    </li></ul>
+                    <button>SHOW MORE ></button>
+                </div>
+                <div class="services item-selection">
+                    <div class="checkbox">
+                    <p class="selected-Item"></p>
+                    <p>&nbsp ITEMS SELECTED</p>
+                    </div>
+                    <div>
+                    <button class="first-child">REMOVE</button>
+                    <button>MOVE TO WISHLIST</button>
+                    </div>
+                </div>
+                <div class="display-bag-item">
+                    <div class="services item-selection">
+                        <div class="checkbox">
+                        <input type="checkbox">
+                        <p>${element.length}/${element.length} ITEMS SELECTED</p>
+                        </div>
+                        <div>
+                        <button class="first-child">REMOVE</button>
+                        <button>MOVE TO WISHLIST</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="order-summary">
+                <div class="coupons">
+                    <h2>COUPON</h2>
+                    <div class="coupon-info">
+                        <div>
+                            <span class="material-symbols-outlined">local_police</span>
+                            <h3>Apply Coupons</h3>
+                        </div>
+                        <button>Apply</button>
+                    </div>
+                    <p><span>Login </span>to get upto Rs.300 OFF on first order</p>
+                </div>
+                <div class="price-summary">
+                </div>
+            </div>
+
+        </div>
+    </main>
+    
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    <script src="bag.js"></script>
+    
+</body>
+</html>

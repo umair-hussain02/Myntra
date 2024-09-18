@@ -1,0 +1,127 @@
+.filter-bar{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+
+}
+.left-side-filter{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.left-side-filter .filter{
+    color: rgb(84, 83, 83);
+    padding: 2px;
+    background: rgb(226, 225, 225);
+    border-radius: 12px;
+    padding-left: 5px;
+
+    
+}
+.filter select{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: gray;
+}
+.right-side-filter {
+    border: 1px solid rgb(164, 163, 163);
+    padding: 3px 12px;
+    border-radius: 3px;
+}
+.right-side-filter label{
+    color: rgb(128, 126, 126);
+}
+.right-side-filter select{
+    color: black;
+    font-weight: 500;
+}
+
+
+/* ++++++++++++++++++++++++++++++Product Styling+++++++++++++++++++++++ */
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cards{
+    width: 240px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px 0px rgb(226, 226, 226);
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.images{
+    position: relative;
+    /* border: 2px solid red; */
+    display: inline;
+}
+.images .rating{
+    background: rgba(255, 255, 255, 0.7);
+    padding: 3px 5px;
+    border-radius: 4px;
+    display: inline-block;
+    position: absolute;
+    bottom: 35px;
+    left: 20px;
+}
+.images img{
+    width: 100%;
+    transition: all 1s ease;
+}
+.images img:hover{
+    scale: 110%;
+}
+.cards .card-detail{
+    padding-left: 22px;
+}
+.card-detail h3{
+    font-size: 14px;
+}
+.card-detail h2{
+    font-size: 12px;
+    color: rgb(97, 96, 96);
+    font-weight: 500;
+    margin-top: 3px;
+}
+.price{
+    display: flex;
+    margin-top: 3px;
+    width: 100%;
+    font-size: 13px;
+    align-items: center;
+
+}
+.price .current{
+    font-weight: 700;
+    margin-right: 7px;
+}
+.price .original{
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-right: 7px;
+}
+.price .percentage-off{
+    color: rgb(189, 65, 19);
+    font-size: 12px;
+}
+.card-detail button{
+    width: 90%;
+    margin: 5px 0px;
+    padding: 4px;
+    background: #FF3E6C;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s ease;
+
+}
+.card-detail button:hover{
+    scale: 110%;
+}

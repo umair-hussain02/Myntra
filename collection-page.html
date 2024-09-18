@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mens Collection</title>
+    <link rel="icon" href="/images/myntra_logo.webp">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="collection-page.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img class="myntra-logo" src="/images/myntra_logo.webp" alt="logo"></a>
+        </div>
+        <nav>
+            <a href="collection-page.html">men</a>
+            <a href="">women</a>
+            <a href="">kids</a>
+            <a href="">home & living</a>
+            <a href="">beauty</a>
+            <a href="">studio <sup>new</sup></a>
+        </nav>
+        <div class="search-bar">
+            <span class="material-symbols-outlined">
+                search
+            </span>
+            <input type="text" placeholder="Search for products, brands and more">
+        </div>
+        <div class="action-bar">
+            <div class="action-container">
+                <span class="material-symbols-outlined">person</span>
+                <p>Profile</p>
+            </div>
+            <div class="action-container">
+                <span class="material-symbols-outlined">favorite</span>
+                <p>Wishlist</p>
+            </div>
+            <div class="action-container">
+                <a href="cart.html">
+                    <span class="material-symbols-outlined">shopping_bag</span>
+                    <p>Bag</p>
+                    <span class="bag-item-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="filter-bar">
+            <div class="left-side-filter">
+                <div class="filter bundle">
+                    <label for="dropdown">Bundles:</label>
+                    <select id="dropdown" name="Bundles">
+                        <option value="apple"></option>
+                        <option value="orange">Bundles</option>
+                        <option value="banana">Single Styles</option>
+                    </select>
+                </div>
+                <div class="filter origin">
+                    <label for="dropdown">Country of Origin:</label>
+                    <select id="dropdown" name="Country">
+                        <option value="apple"></option>
+                        <option value="orange">Pakistan</option>
+                        <option value="banana">All Origins</option>
+                    </select>
+                </div>
+                <div class="filter size">
+                    <label for="dropdown">Size:</label>
+                    <select id="dropdown" name="Size">
+                        <option value="apple"></option>
+                        <option value="orange">xs</option>
+                        <option value="banana">small</option>
+                        <option value="banana">medium</option>
+                        <option value="banana">large</option>
+                        <option value="banana">x-l</option>
+                        <option value="banana">2x-l</option>
+                    </select>
+                </div>
+            </div>
+            <div class=" filter right-side-filter">
+                <label for="sort-by">Sort by:</label>
+                <select name="sort-by" id="">
+                    <option value="">Recommended</option>
+                    <option value="">What's New</option>
+                    <option value="">Popularity</option>
+                    <option value="">Better Discount</option>
+                </select>
+            </div>
+        </div>
+        <div class="products">
+        </div>
+        
+
+    </main>
+
+    <footer>
+        <div class="footer-col">
+            <div class="col col-1">
+                <h2>ONLINE SHOPPING</h2>
+                <div class="links-container">
+                    <a href="">Mens</a>
+                    <a href="">Womens</a>
+                    <a href="">Kids</a>
+                    <a href="">Beauty</a>
+                    <a href="">Home & Living</a>
+                    <a href="">Gift Cards</a>
+                    <a href="">Myntra Insider</a>
+            </div>
+            </div>
+            <div class="col col-2">
+                <h2>CUSTOMER POLICIES</h2>
+                <div class="links-container">
+                    <a href="">Contact Us</a>
+                    <a href="">FAQ</a>
+                    <a href="">T&C</a>
+                    <a href="">Terms of Use</a>
+                    <a href="">Track Orders</a>
+                    <a href="">Shipping</a>
+                    <a href="">Cancellation</a>
+                    <a href="">Returns</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Grievance Officer</a>
+            </div>
+            </div>
+            <div class="col col-3">
+                <h2>EXPERIENCE MYNTRA APP ON MOBILECUSTOMER POLICIES</h2>
+                <div class="links-container">
+                    <a href=""><img src="/images/Appstore.png" alt=""></a>
+                    <a href=""><img src="/images/Playstore.png" alt=""></a>
+            </div>
+            </div>
+            <div class="col col-4">
+                <div class="links-container">
+                    <div>
+                        <img src="/images/original.png" alt="">
+                        <p>100% ORIGINAL guarantee for all products at myntra.com</p>
+                    </div>
+                    <div>
+                        <img src="/images/14days.png" alt="">
+                        <p>Return within 14days of receiving your order</p>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script src="bag.js"></script>
+
+</body>
+</html>
